@@ -12,7 +12,26 @@
     "knowledge": "Knowledge",
     "kickoff": "Kickoff!",
     "results": "Results",
+    "replay": "Replay",
     "import_export": "Import/export"
+  },
+  "replay": {
+    "mode": "View",
+    "mode_steps": "Step through one run",
+    "mode_compare": "Compare two runs",
+    "select_run": "Saved run",
+    "left_run": "Older run",
+    "right_run": "Newer run",
+    "steps": "Steps",
+    "inputs": "Inputs",
+    "final_output": "Final output",
+    "empty_output": "This task returned no text.",
+    "added_lines": "Added lines",
+    "removed_lines": "Removed lines",
+    "changed_steps": "Changed steps",
+    "no_differences": "The two runs produced the same output.",
+    "no_results": "No saved runs yet. Run a crew first.",
+    "need_two_runs": "Save at least two runs to compare them."
   },
   "button": {
     "create_agent": "Create agent",

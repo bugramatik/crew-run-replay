@@ -8,6 +8,7 @@ from pg_tools import PageTools
 from pg_crew_run import PageCrewRun
 from pg_export_crew import PageExportCrew
 from pg_results import PageResults
+from pg_replay import PageReplay
 from pg_knowledge import PageKnowledge
 from dotenv import load_dotenv
 from llms import load_secrets_fron_env
@@ -23,6 +24,7 @@ def pages():
         t('page.knowledge'): PageKnowledge(),
         t('page.kickoff'): PageCrewRun(),
         t('page.results'): PageResults(),
+        t('page.replay'): PageReplay(),
         t('page.import_export'): PageExportCrew()
     }
 

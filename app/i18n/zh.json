@@ -12,7 +12,26 @@
     "knowledge": "知识库",
     "kickoff": "执行!",
     "results": "结果",
+    "replay": "回放",
     "import_export": "导入/导出"
+  },
+  "replay": {
+    "mode": "视图",
+    "mode_steps": "逐步查看一次运行",
+    "mode_compare": "比较两次运行",
+    "select_run": "已保存的运行",
+    "left_run": "较早的运行",
+    "right_run": "较新的运行",
+    "steps": "步骤",
+    "inputs": "输入",
+    "final_output": "最终输出",
+    "empty_output": "此任务没有返回文本。",
+    "added_lines": "新增行",
+    "removed_lines": "删除行",
+    "changed_steps": "变化的步骤",
+    "no_differences": "两次运行的输出相同。",
+    "no_results": "还没有保存的运行。请先运行一个团队。",
+    "need_two_runs": "至少保存两次运行才能比较。"
   },
   "button": {
     "create_agent": "创建 Agent",
